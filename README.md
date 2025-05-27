@@ -1,6 +1,6 @@
 # 🎮 Tic-Tac-Toe Game (React + Vite)
 
-A modern, feature-rich Tic-Tac-Toe game built with **React**, **Vite**, and **Tailwind CSS**. Play solo against a perfect AI or battle a friend in 2-player mode. Includes sound effects, themes, score tracking, and celebration animations! 🎉
+A modern, feature-rich Tic-Tac-Toe game built with **React**, **Vite**, and **Tailwind CSS**. Play solo against a perfect AI or battle a friend in 2-player mode. Includes sound effects, themes, score tracking, and celebration animations! 
 
 
 ## 🧩 Features
@@ -18,8 +18,7 @@ A modern, feature-rich Tic-Tac-Toe game built with **React**, **Vite**, and **Ta
 
 ## 🚀 Demo
 
-> [Live Demo on Vercel](https://your-live-link.vercel.app)  
-*(Replace with your deployed URL)*
+> [Live Demo on Vercel](https://tic-tac-toe-ten-pi-82.vercel.app/)  
 
 
 ## 🛠️ Tech Stack
