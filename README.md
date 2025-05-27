@@ -54,14 +54,14 @@ tic-tac-toe/
    git clone https://github.com/YOUR_USERNAME/tic-tac-toe.git
    cd tic-tac-toe
    
-2.Install dependencies
-    ```bash
-    npm install
+2.**Install dependencies**
+  ```bash
+  npm install
     
-3.Start development server
-    ```bash
-    npm run dev
+3.**Start development server**
+  ```bash
+  npm run dev
 
-4.Build for production
+4.**Build for production**
   ```bash
   npm run build
