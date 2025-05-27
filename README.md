@@ -1,12 +1,67 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe Game (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich Tic-Tac-Toe game built with **React**, **Vite**, and **Tailwind CSS**. Play solo against a perfect AI or battle a friend in 2-player mode. Includes sound effects, themes, score tracking, and celebration animations! 🎉
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- ✅ Single Player Mode (vs Perfect AI)
+- 👥 Two-Player Mode (same device)
+- 🌗 Light & Dark Theme Toggle
+- 🔊 Sound Effects with Volume & Toggle
+- 🎯 Smart AI (Minimax Algorithm)
+- 🏆 Score Tracking & Game History
+- 🎉 Win Celebration Animation
+- ⚙️ Settings Panel UI
+- 🎨 Stylish and responsive design using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Demo
+
+> [Live Demo on Vercel](https://your-live-link.vercel.app)  
+*(Replace with your deployed URL)*
+
+
+## 🛠️ Tech Stack
+
+- **React** (Vite-based)
+- **Tailwind CSS** for styling
+- **JavaScript (ES6+)**
+- **HTML5/CSS3**
+- **Vercel** (for deployment)
+
+
+## 📂 Project Structure
+tic-tac-toe/
+├── public/
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── utils/ # Game logic (AI, win check, sounds)
+│ ├── App.jsx # Main game logic
+│ ├── main.jsx # Entry point
+│ └── index.css # Tailwind base styles
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+└── README.md
+
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/tic-tac-toe.git
+   cd tic-tac-toe
+   
+2.Install dependencies
+    ```bash
+    npm install
+    
+3.Start development server
+    ```bash
+    npm run dev
+
+4.Build for production
+  ```bash
+  npm run build
