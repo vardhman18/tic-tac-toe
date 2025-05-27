@@ -176,13 +176,13 @@ export function evaluateMove(board, move, player) {
 export function getAIDelay(difficulty) {
   switch (difficulty) {
     case AI_DIFFICULTY.EASY:
-      return 5+ Math.random() * 5; // 300-800ms
+      return 5+ Math.random() * 5; 
     case AI_DIFFICULTY.MEDIUM:
-      return 10 + Math.random() * 10; // 500-1200ms
+      return 10 + Math.random() * 10; 
     case AI_DIFFICULTY.HARD:
-      return 15+ Math.random() * 15; // 800-1700ms
+      return 15+ Math.random() * 15; 
     case AI_DIFFICULTY.IMPOSSIBLE:
     default:
-      return 25 + Math.random() * 25; // 1000-2000ms
+      return 25 + Math.random() * 25; 
   }
 }
